@@ -7,9 +7,15 @@
   --purple-color: rgb(170, 30, 170);
   --white-color: rgba(238, 238, 238, 0.952);
 }
+
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   width: 100%;
+  overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
   background-color: var(--white-color);
 }
